@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+
+body.login {
+  background-image: url(https://cdn.smehost.net/leadsonymusiccom-buckprod/wp-content/uploads/2021/11/sign-in-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+
+div.mo_oauth_login_button {
+  height: 3.8rem;
+  width: 16.75rem;
+  border-radius: 30px;
+  border: none;
+  box-shadow: none;
+  margin-left: 19%;
+}
+
+div.row > a:first-child .mo_oauth_login_button {
+  background-image: url("https://cdn.smehost.net/leadsonymusiccom-buckprod/wp-content/uploads/2021/11/sony-music_logo.png");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center 65%;
+  margin-bottom: 28px;
+}
+
+div.row > a:last-child .mo_oauth_login_button {
+  background-image: url("https://cdn.smehost.net/leadsonymusiccom-buckprod/wp-content/uploads/2021/11/the-orchard_logo.png");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 47%;
+  background-position: center 35%;
+}
+
+div form h4 {
+  position: relative;
+  text-indent: -9999px;
+  margin-bottom: 10px;
+}
+
+div form h4::after {
+  position: absolute;
+  text-indent: 1px;
+  content: "Sign in with:";
+  transform: scale(1, 0.95);
+  font-family: "Inter", sans-serif;
+  left: 0;
+  top: 12px;
+  margin-left: 10rem;
+  color: rgb(220, 220, 220);
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+div#login {
+  margin-top: 8.5vh !important;
+  margin-left: 36.6vw !important;
+}
+
+#loginform {
+  height: 20rem;
+  width: 26.5rem;
+  background-color: black;
+  border: none;
+  border-radius: 25px;
+}
+
+#loginform:before {
+  display: inline-block;
+  width: 100%;
+  height: 75px;
+  content: "";
+  background: url("https://cdn.smehost.net/leadsonymusiccom-buckprod/wp-content/uploads/2021/11/login-logo.png");
+  background-repeat: no-repeat;
+  background-size: 100% 75px;
+  margin-top: 8px;
+  padding-bottom: 2rem;
+}
+
+i.fa.fa-lock.mo_oauth_login_button_icon {
+  display: none;
+}
+
+div span b {
+  display: none;
+}
+
+div p a {
+  display: none;
+}
+
+div form p {
+  display: none;
+}
+
+div.user-pass-wrap {
+  display: none;
+}
+
+div h1 a {
+  display: none;
+}
+@media screen and (max-width: 1350px) {
+  div#login {
+    margin-top: 14vh !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  div#login {
+    margin-top: 24vh !important;
+    margin-left: 26vw !important;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  div#login {
+    margin-top: 18vh !important;
+    margin-left: 18vw !important;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  div#login {
+    margin-top: 24vh !important;
+    margin-left: 24vw !important;
+  }
+
+  #loginform {
+    height: 12rem;
+    width: 13.5rem;
+  }
+
+  div.mo_oauth_login_button {
+    height: 3rem;
+    width: 90%;
+    margin-left: 0.75rem;
+  }
+
+  div.row > a:first-child .mo_oauth_login_button {
+    background-size: 60%;
+    margin-bottom: 3px;
+  }
+
+  div.row > a:last-child .mo_oauth_login_button {
+    background-size: 45%;
+    background-position: center 45%;
+  }
+
+  div form h4 {
+    margin-bottom: -20px;
+  }
+
+  div form h4::after {
+    margin-left: 35%;
+    font-size: 10px;
+    top: 0px;
+  }
+
+  #loginform:before {
+    background-size: 100% 45px;
+    padding-bottom: 0;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  div#login {
+    margin-top: 28vh !important;
+    margin-left: 18vw !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  div#login {
+    margin-top: 24vh !important;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  div#login {
+    margin-top: 18vh !important;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  div#login {
+    margin-top: 24vh !important;
+  }
+}
